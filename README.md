@@ -13,14 +13,17 @@ This program monitors the health of HTTP endpoints specified in a YAML configura
 
 ```bash
 pip install fastapi httpx pyyaml
-
+```
 ## Running the program
  
 ```bash
-git clone repo
+git clone https://github.com/mk797/api-health-check
+```
 
 ```bash
 cd api-health-check
+```
 
 ```bash
 python3 health_check.py [config file path]
+```
